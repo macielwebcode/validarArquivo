@@ -1,0 +1,17 @@
+{
+  "name": "projetoumwithnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cli": "node ./src/cli.js",
+    "cli:valida": "node ./src/cli.js ./arquivos/readme.md --valida"
+  },
+  "author": "marcela maciel",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0"
+  }
+}
